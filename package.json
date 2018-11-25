@@ -1,0 +1,26 @@
+{
+  "name": "projectlinnik",
+  "version": "1.0.0",
+  "description": "Some project for LINNIK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASKoshelenko/ProjectLINNIK.git"
+  },
+  "author": "ASKoshelenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASKoshelenko/ProjectLINNIK/issues"
+  },
+  "homepage": "https://github.com/ASKoshelenko/ProjectLINNIK#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-tinypng": "^1.0.2"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules
+Project Design
+.gulp
+.vscode
+.idea
+package-lock.json
