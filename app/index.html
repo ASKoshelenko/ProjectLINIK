@@ -1,18 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Линник</title>
-  <!-- Bootstrap reboot -->
-  <link rel="stylesheet" href="css/bootstrap-reboot.css">
-  <!-- Bootstrap grid -->
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RHYTHM</title>    
+    <!-- Slick styles -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <!-- Custom icons -->
+    <link rel="stylesheet" href="css/et-line.css">
+    <!-- Slick nav -->
+    <link rel="stylesheet" href="css/slicknav.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+		<!-- Custom style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font-awesome icons styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Header-->
+    <div id="header">
+      <div class="container-fluid d-flex align-items-center">
+        <div class="logo" data-scroll=".inner">
+          <a href="#">
+            <img src="img/logo.png" alt="">
+          </a>  
+        </div>
+        <!-- /.logo -->
+        <ul class="header-nav d-flex my-auto">
+          <li>
+            <a href="#" data-scroll=".inner">Главная</a>
+          </li>
+          <li>
+            <a href="#" data-scroll=".about-studio">Вакансии</a>
+          </li>
+          <li>
+            <a href="#" data-scroll=".services">Газета</a>
+          </li>
+          <li>
+            <a href="#" data-scroll=".portfolio">Тендеры</a>
+          </li>
+          <li>
+            <a href="#" data-scroll=".contacts">Услуги</a>
+          </li>
+          <li>
+            <a href="#" data-scroll=".contacts">Снабжение природного газа</a>
+          </li>
+        </ul>
+        <!-- /.header-nav -->
+      </div>
+      <!-- /.container-fluid -->
+    </div>
+    <!-- /#header -->
+    <!-- Main start -->
+    <div id="main">
+      <!-- Main page -->
+      <!-- What people say-->
+      <div class="small-section">
+        <div class="reviews bg-black">
+          <div class="reviews-title text-center">
+            <span class="icon-quote"></span> 
+            <h3 class="title title-white title-light">What people say?</h3>
+          </div>
+          <!-- /.review-title text-center -->
+          <div class="reviews-carousel">          
+            <div>
+              <div class="review-wrapper text-center">                           
+                <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                    risus utaliquam dapibus. Thanks!</p>
+                <span class="review-author">— John Doe, doodle inc.</span>
+              </div>
+            </div>
+            <!-- slide -->
+            <div>
+              <div class="review-wrapper text-center">      
+                <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                    risus utaliquam dapibus. Thanks!</p>
+                <span class="review-author">- jhon</span>
+              </div>
+            </div>
+            <!-- slide -->
+            <div>
+              <div class="review-wrapper text-center">
+                <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                    risus utaliquam dapibus. Thanks!</p>
+                <span class="review-author">- jhon</span>
+              </div>
+            </div>
+            <!-- slide -->
+            <div>
+              <div class="review-wrapper text-center">
+                <p> Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue,
+                    risus utaliquam dapibus. Thanks!</p>
+                <span class="review-author">- jhon</span>
+              </div>
+            </div>          
+          </div>
+        </div>
+        <!-- /.reviews bg-black -->
+      </div>
+      <!-- Latest news -->
+      <div class="default-section latest-news">
+        <div class="container">
+          <h3 class="title">Latest news</h3>
+          <a href="#">All News in our blog <span class="fas fa-angle-right"></span></a>
+          <div class="row">
+            <div class="col col-4 col-md-12">
+              <div class="latest-news-item">
+                <img src="img/news-img-1.jpg" alt="">
+                <div class="latest-news-title">New web design trends</div> 
+                <!-- /.latest-news-title -->
+                <div class="latest-news-signature">
+                  <span>John Doe | 10 December</span>
+                </div>
+                <!-- /.latest-news-signature -->
+                <p class="default-text">Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                <button class="btn btn-small">Read more ></button> 
+                <!-- /.btn btn-small -->
+              </div>
+              <!-- /.latest-news-item -->
+            </div>
+            <!-- /.col col-4 -->
+            <div class="col col-4 col-md-12">
+              <div class="latest-news-item">
+                <img src="img/news-img-2.jpg" alt="">
+                <div class="latest-news-title">Minimalistic Design Forever</div> 
+                <!-- /.latest-news-title -->
+                <div class="latest-news-signature">
+                  <span>John Doe | 9 December</span>
+                </div>
+                <!-- /.latest-news-signature -->
+                <p class="default-text">Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                <button class="btn btn-small">Read more ></button> 
+                <!-- /.btn btn-small -->
+              </div>
+              <!-- /.latest-news-item -->
+            </div>
+            <!-- /.col col-4 -->
+            <div class="col col-4 col-md-12">
+              <div class="latest-news-item">
+                <img src="img/news-img-3.jpg" alt="">
+                <div class="latest-news-title">Hipster’s Style in Web</div> 
+                <!-- /.latest-news-title -->
+                <div class="latest-news-signature">
+                  <span>John Doe | 7 December</span>
+                </div>
+                <!-- /.latest-news-signature -->
+                <p class="default-text">Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus. </p>
+                <button class="btn btn-small">Read more ></button> 
+                <!-- /.btn btn-small -->
+              </div>
+              <!-- /.latest-news-item -->
+            </div>
+            <!-- /.col col-4 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.default-section latest-news -->
+      <!-- Services-->
+      <div class="default-section services">
+        <div class="container">
+          <h3 class="title text-center">Services</h3>
+          <!-- /.title text-center -->
+          <div id="tabs" class="services-tab">
+            <ul>
+              <li>
+                <a href="#branding">
+                  <span class="icon-strategy"></span>
+                  <span>Branding</span>
+                </a>
+              </li>
+              <li>
+                <a href="#web-design">
+                  <span class="icon-desktop"></span>
+                  <span>Web Design</span>
+                </a>
+              </li>
+              <li>
+                <a href="#graphic-design">
+                  <span class="icon-tools"></span>
+                  <span>Graphic Design</span>
+                </a>
+              </li>
+              <li>
+                <a href="#development">
+                  <span class="icon-gears"></span>
+                  <span>Development</span>
+                </a>
+              </li>
+              <li>
+                <a href="#photography">
+                  <span class="icon-camera"></span>
+                  <span>Photography</span>
+                </a>
+              </li>
+            </ul>
+            <div id="branding">
+              <div class="row">
+                <div class="col col-4 col-md-12">
+                  <blockquote>
+                    <p>A brand for a company is like 
+                      a reputation for a person. You earn reputation by trying to do hard things well.</p>
+                    <span>— Jeff Bezos</span>
+                  </blockquote>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit. In maximus ligula metus pellentesque mattis. </p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Donec vel ultricies purus. Nam dictum sem, ipsum aliquam . Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero.</p>              
+                </div>
+                <!-- /.col col-4 -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <div id="web-design">
+              <div class="row">
+                <div class="col col-4 col-md-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>              
+                </div>
+                <!-- /.col col-4 -->
+              </div>
+              <!-- /.row -->            
+            </div>
+            <div id="graphic-design">
+              <div class="row">
+                <div class="col col-4 col-md-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>              
+                </div>
+                <!-- /.col col-4 -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <div id="development">
+              <div class="row">
+                <div class="col col-4 col-md-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>              
+                </div>
+                <!-- /.col col-4 -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <div id="photography">
+              <div class="row">
+                <div class="col col-4 col-md-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</p>
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4 col-md-6 col-sm-12">
+                  <p class="default-text">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor. Integer lectus. Praesent sed nisi eleifend, fermentum orci amet, iaculis libero. Donec vel ultricies purus. Nam dictum sem, eu aliquam ipsum.</p>              
+                </div>
+                <!-- /.col col-4 -->
+              </div>
+              <!-- /.row -->
+            </div>
+          </div>
+          <!-- /.service-tab -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.default-section servises -->            
+      <!-- Contacts-->
+      <div class="default-section contacts">
+        <div class="container">
+          <h3 class="title text-center">Contact</h3>
+          <div class="row">
+            <div class="col col-8 col-lg-12 mx-auto">
+              <div class="row">
+                <div class="col col-4  col-sm-12">
+                  <div class="contact-item">
+                    <div class="rhomb-icon black-icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <!-- /.rhomb-icon black-icon -->
+                    <div class="contact-item-content">
+                      <span class="contact-title">Call us</span>
+                      <span class="contact-data">+61 3 8376 6284</span>
+                    </div>
+                    <!-- /.contact-item-content -->
+                  </div>
+                  <!-- /.contact-item -->
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4  col-sm-12">
+                  <div class="contact-item">
+                    <div class="rhomb-icon black-icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <!-- /.rhomb-icon black-icon -->
+                    <div class="contact-item-content">
+                      <span class="contact-title">Address</span>
+                      <span class="contact-data">245 Quigley Blvd, Ste K</span>
+                    </div>
+                    <!-- /.contact-item-content -->
+                  </div>
+                  <!-- /.contact-item -->
+                </div>
+                <!-- /.col col-4 -->
+                <div class="col col-4  col-sm-12">
+                  <div class="contact-item">
+                    <div class="rhomb-icon black-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <!-- /.rhomb-icon black-icon -->
+                    <div class="contact-item-content">
+                      <span class="contact-title">Email</span>
+                      <span class="contact-data">support@bestlooker.pro</span>
+                    </div>
+                    <!-- /.contact-item-content -->
+                  </div>
+                  <!-- /.contact-item -->
+                </div>
+                <!-- /.col col-4 -->
+              </div>
+              <!-- /.row -->
+              <div class="contact-form">
+                <div class="form-row">
+                  <div class="form-col col-sm-12">
+                    <input type="text" name="user-name" class="form-control" placeholder="Name">
+                    <input type="email" name="user-email" class="form-control" placeholder="Email">                    
+                  </div>
+                  <!-- /.form-col -->
+                  <div class="form-col col-sm-12">
+                    <textarea name="user-message" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                  <!-- /.form-col -->
+                </div>
+                <!-- /.form-row -->
+                <div class="form-submit">
+                  <div class="form-info">
+                    <i class="fas fa-info-circle"></i>
+                    <span>All the fields are required</span>
+                  </div>
+                  <!-- /.form-info -->
+                  <button type="submit" class="btn btn-default">Submit message</button>
+                </div>
+              </div>
+              <!-- /.contact-form -->              
+            </div>
+            <!-- /.col col-8 -->
+          </div>
+          <!-- /.row -->          
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.default-section contacts -->
+      <!-- Map-->
+    </div>
+    <!-- /#main -->
+    <!-- Footer-->
+    <div id="footer">
+      <div class="container-fluid text-center bg-lightgray">
+        <div class="footer-img">
+          <img src="img/footer-logo.png" alt="">
+        </div>
+        <!-- /.footer-img -->
+        <div class="footer-social-nav">
+          <ul>
+            <li>              
+              <a href="#" class="rhomb-icon transparent-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="rhomb-icon transparent-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="rhomb-icon transparent-icon">
+                <i class="fab fa-behance"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="rhomb-icon transparent-icon">
+                <i href="#" class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="rhomb-icon transparent-icon">
+                <i class="fab fa-pinterest"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.footer-social-nav -->
+        <div class="copyright">
+          <i class="far fa-copyright"></i>
+          <span>Rhythm 2014</span>
+          <p>Made with love for great people</p>
+        </div>
+        <!-- /.copyright -->
+        <div class="go-home" data-scroll=".inner"><i class="fas fa-sort-up"></i></div>        
+      </div>
+      <!-- /.container-fluid -->
+    </div>
+    <!-- /#footer -->
+    
+
+    <!-- Scripts -->
+    <!-- jQuery lib -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <!-- jQuery UI lib -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Slick slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>    
+    <!-- Google maps api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCc-d-XfAmoE_8Lz9wSH5O1JL80JlAgd3I&callback=initMap"
+    async defer></script>
+    <!-- Google map init -->
+    <script src="js/google-maps.js"></script>
+    <!-- slicknav -->
+    <script src="js/jquery.slicknav.min.js"></script>
+    <!-- Header on scroll -->
+    <script src="js/header-on-scroll.js"></script>
+    <!-- Wow animate -->
+    <script src="js/wow.min.js"></script>
+    <!-- Init plugins -->
+    <script src="js/init.js"></script>    
+  </body>
 </html>
