@@ -1,9 +1,3 @@
-.prevision {
-	background: url('../img/inner-bg.1.jpg') no-repeat center / cover;
-	height: 100vh;
-	padding: 15px 15px 0 15px;
-}
-
 /* ============ Блок подключения шрифтов =============== */
 @font-face {
     font-family: 'dosislight';
@@ -547,14 +541,28 @@ textarea.form-control {
 }
 /* ===== #Header stop ===== */
 /* ===== Inner start ===== */
-.inner {
-	background: url('../img/inner-bg.jpg') no-repeat center / cover;
+.inner1 {
+	background: url('../img/linik1-bg.jpg') no-repeat center / cover;
 	height: 100vh;
 	padding: 15px 15px 0 15px;
 	text-align: center;
 	position: relative;
 }
-.inner::before {
+.inner2 {
+	background: url('../img/linik2-bg.jpg') no-repeat center / cover;
+	height: 100vh;
+	padding: 15px 15px 0 15px;
+	text-align: center;
+	position: relative;
+}
+.inner3 {
+	background: url('../img/linik3-bg.jpg') no-repeat center / cover;
+	height: 100vh;
+	padding: 15px 15px 0 15px;
+	text-align: center;
+	position: relative;
+}
+.inner1::before, .inner2::before, .inner3::before {
 	content: '';
 	display: inline-block;
 	height: 100%;
@@ -563,11 +571,11 @@ textarea.form-control {
 	вываливалось за пределы окна */
 	margin-left: -4px;
 }
-.inner-content {
+.inner1-content, .inner2-content, .inner3-content {
 	display: inline-block;
 	vertical-align: middle;
 }
-.inner-title{
+.inner1-title, .inner3-title, .inner3-title {
 	font-family: 'dosisregular', sans-serif;
 	font-size: 2rem;
 	letter-spacing: 1.7em;
@@ -577,12 +585,12 @@ textarea.form-control {
 	font-weight: normal;
 	margin-bottom: 88px;
 }
-.inner-subtitle {
+.inner1-subtitle, .inner2-subtitle, .inner3-subtitle {
 	font-family: 'open_sanslight', sans-serif;
 	font-size: 1.2667rem;
 	color: rgba(254, 254, 254, .68)
 }
-.inner-button{
+.inner1-button, .inner2-button, .inner3-button {
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -599,7 +607,7 @@ textarea.form-control {
 	left: 50%;
 	cursor: pointer;
 }
-.inner-button .fas {
+.inner1-button .fas, .inner2-button .fas, .inner3-button .fas {
 	position: absolute;
 	bottom: 2px;
 	left: 4px;

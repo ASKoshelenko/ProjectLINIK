@@ -42,3 +42,31 @@ function onClick(e) {
 }
 
 scrollBtn.on('click', onClick); // отслеживаем событие клик на все элементы с атрибутом data-scroll
+
+// Inner slider
+(function(){
+    const inner = document.querySelector('.slider');
+    const trigger = false;
+    let count = 0;
+
+    const showInner = (number) => {
+        inner.children[number].hidden = false;
+        for (let i = 0; i < inner.children.length; i += 1) {
+            if(i !== number) inner.children[i].hidden = true;
+        }
+    }
+
+    showInner(count);
+    count += 1;
+
+    setInterval(() => {
+        if(count < inner.children.length) {
+            showInner(count);
+            count += 1;
+        }
+        else {
+            count = 0;
+            showInner(count)
+        }
+    },10000);
+})();

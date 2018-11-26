@@ -106,7 +106,7 @@
   font-size: 0.875em;
   list-style: none;
   overflow: hidden;
-  background: #000;
+  background: rgba(100, 100, 100, 0.1);
   position: absolute;
   top: 100%;
   width: 100%;
@@ -130,7 +130,7 @@
 .slicknav_nav a {
   padding: 10px;
   text-decoration: none;
-  color: #fff; } 
+  color: rgba(8, 64, 109, .75); } 
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
