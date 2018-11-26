@@ -46,7 +46,6 @@ scrollBtn.on('click', onClick); // отслеживаем событие кли�
 // Inner slider
 (function(){
     const inner = document.querySelector('.slider');
-    const trigger = false;
     let count = 0;
 
     const showInner = (number) => {
